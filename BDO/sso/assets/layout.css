@@ -1,0 +1,602 @@
+/*main*/
+
+#bodyWrapper {
+  width: 960px;
+  margin: 15px auto 0 auto;
+}
+
+
+#contentWrapper {
+  float: left;
+  width: 725px;
+  min-height: 500px;
+}
+
+
+#sideBarWrapper {
+  float: left;
+  width: 229px;
+}
+
+
+
+/*logo*/
+
+
+#logoWrapper {
+  width: 178px;	
+  height: 81px;
+  float: left;
+}
+
+#bdoLogo {
+margin:0 auto;
+display:block;
+width:178px;
+height:81px;
+}
+
+#bdoLogo a{
+display:block;
+width:151px;
+height:81px;
+position:relative;
+left:15px;
+text-decoration:none;
+background: url("bdo-logo.jpg") no-repeat top center;
+}
+
+#bdoLogo span{
+visibility:hidden;
+}
+
+
+
+/*sidebar*/
+
+#sideBarBlueDiv {
+  width: 213px;
+  background: #24418F;
+}
+
+#sideBarBlueDivTop {
+  display: block;
+  width: 213px;
+  height: 19px;
+  background: url("sidebar-blue-top.jpg") no-repeat;
+}
+
+#sideBarBlueDivTop span{
+  visibility:hidden;
+}
+
+#sideBarBlueDivBottom {
+  display: block;
+  width: 213px;
+  height: 19px;
+  background: url('sidebar-blue-bottom.jpg') no-repeat;
+}
+
+#sideBarBlueDivContent {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sideBarBlueButton {
+  width: 140px;
+  height: 20px;
+  padding: 6px 0 0 10px;
+  margin: 10px auto;
+  background: url('sidebar-blue-button.jpg') no-repeat; 
+  color: #24418F;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sideBarBlueButton:hover {
+  background: url('sidebar-blue-button-hover.jpg') no-repeat; 
+}
+
+#sideBarGrayDiv {
+  margin: 25px 0;
+  width: 214px;
+  background: #e4e4e4;
+}
+
+#sideBarGrayDivTop {
+  display: block;
+  width: 214px;
+  height: 19px;
+  background: url("sidebar-gray-top.jpg") no-repeat;
+}
+
+#sideBarGrayDivTop span{
+  visibility:hidden;
+}
+
+#sideBarGrayDivBottom {
+  display: block;
+  width: 214px;
+  height: 14px;
+  background: url('sidebar-gray-bottom.jpg') no-repeat;
+}
+
+#sideBarGrayDivContent {
+  padding: 0 12px;
+}
+
+
+.sideBarGrayButton {
+  width: 165px;
+  height: 22px;
+  padding:7px 15px 3px 15px;
+  border-bottom:1px solid #dedede;
+  background: url('sidebar-gray-button.jpg') no-repeat; 
+  color: #24418F;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sideBarGrayButton:hover {
+  background: url('sidebar-gray-button-hover.jpg') no-repeat; 
+}
+
+
+#sideBar-ad {
+  margin: 15px 0;
+}
+
+
+/*header*/
+
+#contentTop {
+  display: block;
+  height: 81px;
+  width: 940px;
+  margin: auto;
+} 
+
+#searchBar {
+  float: right;
+  width: 440px;
+  height: 30px;
+  text-align: right;
+}
+
+#searchBarLinks {
+  margin-top: 7px;
+  float: right;
+  width: 235px;
+  color: #868686;
+  font-size: 10px;
+}
+
+#searchBarLinks a {
+  color: #0B2972;
+  text-decoration: none;
+  font-size: 8px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#searchBarLinks a:hover {
+  text-decoration: underline;
+}
+
+
+#searchBox {
+  float: right;
+  width: 192px;
+  height: 26px;
+  background: url("search-box.jpg") no-repeat;
+  text-align: left;
+
+  
+}
+
+#searchBox #searchQuery {
+  border: 0;
+  height: 14px;
+  width: 140px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  font-size: 11px;
+  color: #5a5a5a;
+  background: none; 
+}
+
+#searchBox #searchButton {
+  position: relative;
+  top: 5px;
+}
+
+
+/*navigation*/
+
+#contentTop .yellowTab {
+  border: 0;
+  float: left;
+  width: 123px;
+  height: 28px;
+  background: url('nav-yellow-tab.jpg') no-repeat;
+  font-size: 11px; 
+  text-align: center;
+  margin-right: 2px;
+  margin-top: 18px;
+} 
+
+#contentTop .yellowTab p {
+  margin-top: 7px;
+  color: #24418F;
+  text-decoration: none;
+}
+
+#contentTop .grayTab {
+  border: 0;
+  float: left;
+  width: 123px;
+  height: 28px;
+  background: url('nav-gray-tab.jpg') no-repeat;
+  font-size: 11px; 
+  text-align: center;
+  margin-right: 2px;
+  margin-top: 18px;
+} 
+
+#contentTop .grayTab p {
+  margin-top: 7px;
+  color: #24418F;
+  text-decoration: none;
+}
+
+
+#navBarContainer {
+  border: 0;
+  background: #FFB20C;
+  height: 40px;
+}
+
+#mainNavBarRow {
+	height: 46px;
+}
+
+#mainNav {
+  margin-left: 1px;
+  width: 730px;
+  
+}
+
+#mainNav {
+	font-weight: normal;
+}
+
+#navBarMiddle {
+  width: 725px;
+  height: 20px;
+  display: block;
+  font-size: 12px;
+  z-index: 100;
+  position: relative;
+  top: -3px;
+}
+
+#navBarTop {
+  display: block;
+  width: 725px;
+  height: 10px;
+  font-size: 10px; /*ie fix*/
+  background: url('nav-bar-top.jpg') no-repeat;
+}
+
+#navBarBottom {
+  display: block;
+  width: 725px;
+  height: 10px;
+  font-size: 10px; /*ie fix*/
+  background: #fff url('nav-bar-bottom.jpg') no-repeat;
+}
+
+/*breadcrumbs*/
+
+.breadcrumbsContainer {
+  float: left;
+  width: 530px;
+  height: 20px;
+  font-size: 11px;
+  color: #787878;
+  text-decoration: none;
+}
+
+.breadcrumbsContainer a {
+  color: #354894;
+  text-decoration: none;
+}
+
+.breadcrumbsContainer a:hover{
+  text-decoration: underline;
+}
+
+.breadcrumbsContainer a.active {
+  color: #313131 !Important;
+  text-decoration: none !important;
+}
+
+
+/*email & print*/
+
+.pageActionsContainer {
+  float: right:
+  width: 154px;
+  height: 20px;
+  text-align: right;
+}
+
+.pageActionsContainer {
+  cursor: pointer;
+}
+
+.emailprintContainer {
+  float: right;
+  width: 154px;
+  height: 20px;
+  font-size:11px;
+  text-decoraton:none;
+}
+
+
+.emailprintContainer a {
+  color: #787878;
+  text-decoration: none;
+  font-size:11px;
+  position:relative;
+  top:-5px;
+  margin:0 5px 0 0;
+}
+
+
+.emailprintContainer a:hover {
+ text-decoration:underline;
+}
+
+
+
+/*footer*/
+
+
+#footerDiv {
+  margin:15px auto;
+  border-top:#ddd 1px solid;
+  width: 980px;
+  clear: both;
+}
+
+#footerLinksDiv {
+  width:700px;
+  margin:0 auto;
+  padding-top:28px;
+  text-align:center;
+  float: right;
+  font-size: 10px;
+}
+
+#footerDiv a {
+  margin:0 10px;
+  font-size: 10px;
+  color: #999999;
+  text-decoration: none;
+}
+
+#footerDiv a:hover {
+  color:#999;
+}
+
+
+#footerCopyright {
+  font-size: 10px;
+  color: #999999;
+  margin: 0 0 0 30px;
+  float: left;
+  padding-top: 28px;	
+}
+
+
+
+/* private banking */
+#privateBdoLogo {
+margin:0 auto;
+}
+
+#privateBdoLogo a{
+display:block;
+width:137px;
+height:75px;
+position:relative;
+top:20px;
+left:40px;
+text-decoration:none;
+background: url("../images/private-bdo-logo.gif") no-repeat top center;
+}
+
+#privateBdoLogo span{
+visibility:hidden;
+}
+
+#privateSearchBox {
+  float: right;
+  width: 192px;
+  height: 26px;
+  background: url("../images/private-search-box.jpg") no-repeat;
+  text-align: left;
+}
+
+#privateSearchBox #searchQuery {
+  border: 0;
+  height: 14px;
+  width: 140px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  font-size: 11px;
+  color: #5a5a5a;
+  background: none; 
+}
+
+#privateSearchBox #searchButton {
+  position: relative;
+  top: 5px;
+}
+
+
+#contentTop .privateActiveTab {
+  border: 0;
+  float: left;
+  width: 123px;
+  height: 28px;
+  background: url('../images/private-nav-tab-active.jpg') no-repeat;
+  font-size: 11px; 
+  text-align: center;
+  margin-right: 2px;
+  margin-top: 18px;
+} 
+
+#contentTop .privateActiveTab a {
+  margin-top: 7px;
+  color: #777252;
+  text-decoration: none;
+}
+
+#contentTop .privateDeadTab {
+  border: 0;
+  float: left;
+  width: 123px;
+  height: 28px;
+  background: url('../images/private-nav-tab-dead.jpg') no-repeat;
+  font-size: 11px; 
+  text-align: center;
+  margin-right: 2px;
+  margin-top: 18px;
+} 
+
+#contentTop .privateDeadTab a {
+  margin-top: 7px;
+  color: #777252;
+  text-decoration: none;
+}
+
+
+
+
+
+#privateNavBarContainer {
+  border: 0;
+  background: #ececec!important;
+}
+
+#privateNav {
+  margin-left: 1px;
+  width: 725px;
+}
+
+#privateNavBarMiddle {
+  margin: 0;
+  width: 725px;
+  height: 25px;
+  display: block;
+  font-size: 12px;
+  z-index: 100;
+  position: relative;
+  top: -3px;
+  background: #ececec !important;
+}
+
+#privateNavBarTop {
+  margin: 0;
+  display: block;
+  width: 725px;
+  height: 10px;
+  font-size: 10px; /*ie fix*/
+  background: url('../images/private-nav-bar-top.jpg') no-repeat;
+}
+
+#privateNavBarBottom {
+  margin: 0;
+  display: block;
+  width: 725px;
+  height: 10px;
+  font-size: 10px; /*ie fix*/
+  background: #dcdcdc url('../images/private-nav-bar-bottom.jpg') no-repeat;
+}
+
+
+#privateSideBarGrayDiv {
+  margin: 25px 0;
+  width: 214px;
+  background: #e4e4e4;
+}
+
+#privateSideBarGrayDivTop {
+  display: block;
+  width: 214px;
+  height: 19px;
+  background: url("private-sidebar-gray-top.jpg") no-repeat;
+}
+
+#privateSideBarGrayDivTop span{
+  visibility:hidden;
+}
+
+#privateSideBarGrayDivBottom {
+  display: block;
+  width: 214px;
+  height: 14px;
+  background: url('private-sidebar-gray-bottom.jpg') no-repeat;
+}
+
+#privateSideBarGrayDivContent {
+  padding: 0 12px;
+}
+
+
+.sideBarGrayButton {
+  width: 165px;
+  height: 22px;
+  padding:7px 15px 3px 15px;
+  border-bottom:1px solid #dedede;
+  background: url('sidebar-gray-button.jpg') no-repeat; 
+  color: #24418F;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sideBarGrayButton:hover {
+  background: url('sidebar-gray-button-hover.jpg') no-repeat; 
+}
+
+#menuContainer {
+	float: right;
+	width: 725px;
+	height: 81px;
+}
+
+
+/* end */
+
+/* end */
+
+
+
+
+/*clear*/
+
+.clear {
+  position: relative;
+  display: block;
+  clear: both;
+}

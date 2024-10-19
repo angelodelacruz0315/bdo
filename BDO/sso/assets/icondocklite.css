@@ -1,0 +1,130 @@
+.zoom {
+	border: none;
+}
+
+
+.icondockcontainer {
+	margin-bottom: 10px;
+	display: block;	
+	position: relative;
+	top: -10px;
+}
+
+.icondock {
+	width: 180px;
+	padding-bottom: 10px;
+	display: block;
+	
+}
+
+.icondock div {
+	width: 60px;
+	height: 50px;
+	float: left;
+	/*background: transparent url('background.jpg') no-repeat top left;*/ 
+	padding-top: 10px;
+}
+
+.icondock div.dockicons:hover {
+	background: transparent url('background.png') no-repeat top left;
+	background-position: -60px 0;
+}
+
+.icondock div a div {
+	background: url("quicklinks_blue.png") no-repeat scroll 0 0 transparent;
+    height: 48px;
+    margin: -1px 0 0 8px;
+    width: 48px;
+}
+
+.icondock div a div:hover {
+	background: url("quicklinks_yellow.png") no-repeat scroll 0 0 transparent;
+    height: 48px;
+    margin: -1px 0 0 8px;
+    width: 48px;
+}
+
+.icondock div a img {
+	width: 48px;
+}
+
+.icondock .balanceinquiry {
+	background-position: 0px 0px; 
+}
+
+.icondock div a div.bp {
+	background-position: -48px 0; 
+}
+
+.icondock div a div.ft {
+	background-position: -96px 0; 
+}
+
+.icondock div a div.pmr {
+	background-position: -144px 0; 
+}
+
+.icondock div a div.ccr {
+	background-position: -192px 0; 
+	/*width: 44px;*/
+}
+
+.icondock div a div.wt {
+	background-position: -240px 0; 
+}
+
+.icondock div a div.cbr {
+	background-position: -288px 0; 
+}
+
+.icondock div a div.biller {
+	background-position: -336px 0; 
+}
+
+.icondock div a div.transactions {
+	background-position: -384px 0; 
+}
+
+.icondock div a div.bills {
+	background-position: -432px 0; 
+}
+
+.icondock div a div.scheduled-txn {
+	background-position: -480px 0; 
+}
+
+.icondock div a div.change-password {
+	background-position: -528px 0; 
+}
+
+.icondock div a div.clg1 {
+	background-position: -576px 0; 
+}
+
+.icondock div a div.clg2 {
+	background-position: -624px 0; 
+}
+
+.icondock div a div.clg3 {
+	background-position: -672px 0; 
+}
+
+.icondock div a div.clg4 {
+	background-position: -720px 0; 
+}
+
+.icondock div a div.clg5 {
+	background-position: -768px 0; 
+}
+
+.icondock div a div.clg6 {
+	background-position: -816px 0; 
+}
+
+.icondock div a div.esoa {
+	background-position: -864px 0; 
+}
+
+.icondock div a div.trust {
+	background-position: -912px 0; 
+}

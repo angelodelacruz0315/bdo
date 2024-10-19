@@ -1,0 +1,15 @@
+label.error {
+	/**display:block;*/
+	margin-left:10px;
+	/**float: left; edit by maybelle for wrapping error message below */ 
+	color:#E36076;
+	font-size : smaller;
+}
+
+div.status {
+	color:#888888;
+}
+
+div.error {
+	color:#E36076;
+}
